@@ -30,9 +30,6 @@ if (app.Environment.IsDevelopment())
 
 //Aplicando a política de CORS
 app.UseCors("DefaultPolicy");
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
